@@ -11,5 +11,5 @@
     
     Digital
     UART-TX at PA9
-    500Hz test ping at PB2
+    500Hz at PB2
 
