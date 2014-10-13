@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F429_439xx -DARM_MATH_CM4 -D__FPU_USED -D__FPU_PRESENT=1 -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\cmsis_boot -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\cmsis -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\cmsis_lib -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\uboszi_lib -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi -I..\..\..\..\..\STM32\OSC -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\ub_lib -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\cmsis_lib\include -I..\..\..\..\..\STM32\OSC\STM32F429i-Disco oscilloscope - from Show_10_Oszi\fft_lib">
+      <target file="syscalls.o" lastModified="14909e58764">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1431d57ec50"/>
+      </target>
+      <target file="menu.o" lastModified="14909e58234">
+         <source file="..\..\..\uboszi_lib\menu.c" lastModified="14909b45f4e"/>
+      </target>
+      <target file="arm_cfft_radix4_init_f32.o" lastModified="14909e59157">
+         <source file="..\..\..\fft_lib\arm_cfft_radix4_init_f32.c" lastModified="131644b0f50"/>
+      </target>
+      <target file="misc.o" lastModified="14909e58f15">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="arm_max_f32.o" lastModified="14909e5907d">
+         <source file="..\..\..\fft_lib\arm_max_f32.c" lastModified="131644b0f50"/>
+      </target>
+      <target file="stm32f4xx_ltdc.o" lastModified="14909e57525">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="stm32_ub_uart.o" lastModified="14909e57eba">
+         <source file="..\..\..\ub_lib\stm32_ub_uart.c" lastModified="1429e29f860"/>
+      </target>
+      <target file="stm32_ub_i2c3.o" lastModified="14909e57265">
+         <source file="..\..\..\ub_lib\stm32_ub_i2c3.c" lastModified="142ffade600"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="14909e592de">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="stm32_ub_systick.o" lastModified="14909e57b9d">
+         <source file="..\..\..\ub_lib\stm32_ub_systick.c" lastModified="144e995cac0"/>
+      </target>
+      <target file="stm32_ub_graphic2d.o" lastModified="14909e5809e">
+         <source file="..\..\..\ub_lib\stm32_ub_graphic2d.c" lastModified="14357a6dd30"/>
+      </target>
+      <target file="stm32_ub_sdram.o" lastModified="14909e56e3f">
+         <source file="..\..\..\ub_lib\stm32_ub_sdram.c" lastModified="141e9e0cd70"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14909e58542">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="fft.o" lastModified="14909e5742b">
+         <source file="..\..\..\uboszi_lib\fft.c" lastModified="144f28c4190"/>
+      </target>
+      <target file="arm_rfft_f32.o" lastModified="14909e5717b">
+         <source file="..\..\..\fft_lib\arm_rfft_f32.c" lastModified="131641420d0"/>
+      </target>
+      <target file="GUI2.o" lastModified="14909e58978">
+         <source file="..\..\..\ub_lib\bilder\GUI2.c" lastModified="144e80df240"/>
+      </target>
+      <target file="arm_cmplx_mag_f32.o" lastModified="14909e57f85">
+         <source file="..\..\..\fft_lib\arm_cmplx_mag_f32.c" lastModified="131644b0f50"/>
+      </target>
+      <target file="ub_font_arial_7x10.o" lastModified="14909e57dc0">
+         <source file="..\..\..\ub_lib\font\ub_font_arial_7x10.c" lastModified="144ecb3a4c0"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14909e57350">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="GUI1.o" lastModified="14909e58486">
+         <source file="..\..\..\ub_lib\bilder\GUI1.c" lastModified="144e7c5cd80"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14909e578be">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="oszi.o" lastModified="14909e56d83">
+         <source file="..\..\..\uboszi_lib\oszi.c" lastModified="144f2f4ded0"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="14909e57ae1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="stm32_ub_spi5.o" lastModified="14909e58801">
+         <source file="..\..\..\ub_lib\stm32_ub_spi5.c" lastModified="14202137960"/>
+      </target>
+      <target file="stm32_ub_led.o" lastModified="14909e5766d">
+         <source file="..\..\..\ub_lib\stm32_ub_led.c" lastModified="141e9c27fa0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14909e575b1">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="141f7787280"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14909e58a62">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="arm_cfft_radix4_f32.o" lastModified="14909e56f49">
+         <source file="..\..\..\fft_lib\arm_cfft_radix4_f32.c" lastModified="131641420d0"/>
+      </target>
+      <target file="printf.o" lastModified="14909e57c78">
+         <source file="..\..\..\stdio\printf.c" lastModified="1431d57ec50"/>
+      </target>
+      <target file="stm32_ub_touch_stmpe811.o" lastModified="14909e58fd1">
+         <source file="..\..\..\ub_lib\stm32_ub_touch_stmpe811.c" lastModified="1421be99450"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14909e58e79">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="arm_common_tables.o" lastModified="14909e570b0">
+         <source file="..\..\..\fft_lib\arm_common_tables.c" lastModified="131644b0f50"/>
+      </target>
+      <target file="stm32_ub_button.o" lastModified="14909e57d23">
+         <source file="..\..\..\ub_lib\stm32_ub_button.c" lastModified="141e9c56da0"/>
+      </target>
+      <target file="adc.o" lastModified="14909e58b8b">
+         <source file="..\..\..\uboszi_lib\adc.c" lastModified="14909b45fcb"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14909e58d7f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="main.o" lastModified="14909e57796">
+         <source file="..\..\..\main.c" lastModified="144f384e200"/>
+      </target>
+      <target file="stm32f4xx_fmc.o" lastModified="14909e58c95">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="stm32_ub_lcd_ili9341.o" lastModified="14909e5832e">
+         <source file="..\..\..\ub_lib\stm32_ub_lcd_ili9341.c" lastModified="14357a815b0"/>
+      </target>
+      <target file="stm32f4xx_dma2d.o" lastModified="14909e57023">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="1412e5d23f0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14909e586c8">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="142115b00f0"/>
+      </target>
+      <target file="stm32_ub_font.o" lastModified="14909e5860d">
+         <source file="..\..\..\ub_lib\stm32_ub_font.c" lastModified="141ef1eb8b0"/>
+      </target>
+      <target file="arm_rfft_init_f32.o" lastModified="14909e579c8">
+         <source file="..\..\..\fft_lib\arm_rfft_init_f32.c" lastModified="131644b0f50"/>
+      </target>
+   </processor>
+</history>

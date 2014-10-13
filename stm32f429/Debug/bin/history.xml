@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wall -g -nostartfiles -Map=stm32f429.map -O0 --gc-sections -lm -lgcc -lc -LC:/STM32/OSC/STM32F429i-Disco oscilloscope - from Show_10_Oszi -TC:/STM32/OSC/STM32F429i-Disco oscilloscope - from Show_10_Oszi/ub_linkerscript_stm32f429i_disco.ld -g">
+      <target file="stm32f429.elf" lastModified="14909e5961a">
+         <source file="..\obj\oszi.o" lastModified="14909e56d83"/>
+         <source file="..\obj\stm32_ub_sdram.o" lastModified="14909e56e3f"/>
+         <source file="..\obj\arm_cfft_radix4_f32.o" lastModified="14909e56f49"/>
+         <source file="..\obj\stm32f4xx_dma2d.o" lastModified="14909e57023"/>
+         <source file="..\obj\arm_common_tables.o" lastModified="14909e570b0"/>
+         <source file="..\obj\arm_rfft_f32.o" lastModified="14909e5717b"/>
+         <source file="..\obj\stm32_ub_i2c3.o" lastModified="14909e57265"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14909e57350"/>
+         <source file="..\obj\fft.o" lastModified="14909e5742b"/>
+         <source file="..\obj\stm32f4xx_ltdc.o" lastModified="14909e57525"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14909e575b1"/>
+         <source file="..\obj\stm32_ub_led.o" lastModified="14909e5766d"/>
+         <source file="..\obj\main.o" lastModified="14909e57796"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14909e578be"/>
+         <source file="..\obj\arm_rfft_init_f32.o" lastModified="14909e579c8"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="14909e57ae1"/>
+         <source file="..\obj\stm32_ub_systick.o" lastModified="14909e57b9d"/>
+         <source file="..\obj\printf.o" lastModified="14909e57c78"/>
+         <source file="..\obj\stm32_ub_button.o" lastModified="14909e57d23"/>
+         <source file="..\obj\ub_font_arial_7x10.o" lastModified="14909e57dc0"/>
+         <source file="..\obj\stm32_ub_uart.o" lastModified="14909e57eba"/>
+         <source file="..\obj\arm_cmplx_mag_f32.o" lastModified="14909e57f85"/>
+         <source file="..\obj\stm32_ub_graphic2d.o" lastModified="14909e5809e"/>
+         <source file="..\obj\menu.o" lastModified="14909e58234"/>
+         <source file="..\obj\stm32_ub_lcd_ili9341.o" lastModified="14909e5832e"/>
+         <source file="..\obj\GUI1.o" lastModified="14909e58486"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14909e58542"/>
+         <source file="..\obj\stm32_ub_font.o" lastModified="14909e5860d"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14909e586c8"/>
+         <source file="..\obj\syscalls.o" lastModified="14909e58764"/>
+         <source file="..\obj\stm32_ub_spi5.o" lastModified="14909e58801"/>
+         <source file="..\obj\GUI2.o" lastModified="14909e58978"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="14909e58a62"/>
+         <source file="..\obj\adc.o" lastModified="14909e58b8b"/>
+         <source file="..\obj\stm32f4xx_fmc.o" lastModified="14909e58c95"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="14909e58d7f"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="14909e58e79"/>
+         <source file="..\obj\misc.o" lastModified="14909e58f15"/>
+         <source file="..\obj\stm32_ub_touch_stmpe811.o" lastModified="14909e58fd1"/>
+         <source file="..\obj\arm_max_f32.o" lastModified="14909e5907d"/>
+         <source file="..\obj\arm_cfft_radix4_init_f32.o" lastModified="14909e59157"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="14909e592de"/>
+      </target>
+   </processor>
+</history>
